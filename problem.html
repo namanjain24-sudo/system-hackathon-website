@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FairMarket India</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="dark-mode">
+  <div class="wrapper">
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <a href="#">FairMarket India</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="problem.html">Problem</a></li>
+          <li><a href="cld.html">CLD Diagram</a></li>
+          <li><a href="eps.html">EPS Analysis</a></li>
+          <li><a href="Leverage.html">Leverage Points</a></li>
+          <li><a href="data.html">Data Insights</a></li>
+          <li><a href="stock.html">Stock Flow</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+        <button class="mobile-nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section id="problem" class="problem-section">
+      <div class="container">
+        <div class="problem-header">
+          <h2>Understanding the <span class="highlight">Problem Space</span></h2>
+          <p class="problem-description">
+            Small sellers on e-commerce platforms face a complex set of challenges that
+            limit their growth potential and sustainability. Our research identifies key
+            systemic issues that create barriers to success.
+          </p>
+          <div class="problem-tags">
+            <span class="tag">Visibility</span>
+            <span class="tag">Competition</span>
+            <span class="tag">Algorithms</span>
+            <span class="tag">Pricing</span>
+            <span class="tag">Policy</span>
+          </div>
+        </div>
+
+        <div class="problem-image">
+          <img src="https://images.pexels.com/photos/4498136/pexels-photo-4498136.jpeg" alt="Small seller preparing packages for shipment" />
+        </div>
+
+        <div class="challenges-section">
+          <h3>Key Challenges Identified</h3>
+          <p class="section-description">
+            Our research has identified these major challenges facing small sellers in the e-commerce ecosystem
+          </p>
+
+          <div class="problem-tags" >
+            <span class="tag">All Problems</span>
+            <span class="tag">Competition</span>
+            <span class="tag">Pricing</span>
+            <span class="tag">Platform Policies</span>
+          </div>
+          <p></p>
+
+          <div class="challenges-grid">
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-search"></i></div>
+              <h4>Visibility Challenges</h4>
+              <p>Small sellers struggle to get their products discovered among millions of listings on major platforms.</p>
+              <div class="stat-box">
+                <span>Only 5% of products appear on the first page of search results</span>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+              <h4>Algorithm Bias</h4>
+              <p>Platform algorithms often favor established sellers with higher sales volumes and better metrics.</p>
+              <div class="stat-box">
+                <span>New sellers see 40% less traffic than established ones</span>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-dollar-sign"></i></div>
+              <h4>Pricing Pressure</h4>
+              <p>Intense competition forces small sellers to reduce prices, often below sustainable margins.</p>
+              <div class="stat-box">
+                <span>Average profit margins have decreased by 15% in the last 3 years</span>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-link"></i></div>
+              <h4>Platform Dependency</h4>
+              <p>Sellers become dependent on platforms, with little control over policy changes that affect their business.</p>
+              <div class="stat-box">
+                <span>78% of small sellers rely on a single platform for over 80% of sales</span>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+              <h4>Counterfeit Products</h4>
+              <p>Small brands face challenges from counterfeit products that undercut prices and damage reputation.</p>
+              <div class="stat-box">
+                <span>Estimated ₹40,000 Crore annual loss due to counterfeits</span>
+              </div>
+            </div>
+
+            <div class="challenge-card">
+              <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+              <h4>Data Asymmetry</h4>
+              <p>Limited access to market data compared to platforms and larger sellers creates competitive disadvantages.</p>
+              <div class="stat-box">
+                <span>Large sellers have access to 5x more market data points</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="market-dynamics">
+            <h3>Market Dynamics Visualization</h3>
+            <p class="section-description">
+              Interactive visualization of how small sellers perform on major e-commerce platforms
+            </p>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <div class="visualization-container">
+              <div class="chart-wrapper" style="flex: 1;">
+                <img src="Screenshot 2025-05-03 at 6.03.37 PM.png" width="1000px">
+                <canvas id="marketChart" height="30"></canvas>
+              </div>
+          
+              <div class="key-metrics">
+                <div class="metric">
+                  <span class="metric-value">78%</span>
+                  <span class="metric-label">Platform Market Share</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">12%</span>
+                  <span class="metric-label">Small Seller Growth Rate</span>
+                </div>
+                <div class="metric">
+                  <span class="metric-value">34%</span>
+                  <span class="metric-label">Customer Retention Rate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        <div class="testimonials">
+          <h3>Voices from the Marketplace</h3>
+          <p class="section-description">
+            Real experiences from small sellers navigating the e-commerce landscape
+          </p>
+          <div class="testimonial-grid">
+            <div class="testimonial-card">
+              <p class="quote">"The platform algorithms change so frequently that it's hard to maintain visibility. One day you're on the first page, the next day you're nowhere to be found."</p>
+              <div class="author">
+                <div class="author-initial">R</div>
+                <div class="author-info">
+                  <strong>Rajesh Kumar</strong>
+                  <span>Handicraft Home Decor Seller</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <p class="quote">"Competing with larger sellers who can afford to slash prices is nearly impossible. We focus on quality, but customers often choose based on price alone."</p>
+              <div class="author">
+                <div class="author-initial">P</div>
+                <div class="author-info">
+                  <strong>Priya Sharma</strong>
+                  <span>Organic Skincare Products</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- Footer -->
+     <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <h3>FairMarket India</h3>
+              <p>Created by Naman Jain</p>
+            </div>
+            <div class="footer-links">
+              <div class="link-group">
+                <h4>Navigation</h4>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Problem</a></li>
+                  <li><a href="#">CLD Diagram</a></li>
+                  <li><a href="#">EPS Analysis</a></li>
+                </ul>
+              </div>
+              <div class="link-group">
+                <h4>Resources</h4>
+                <ul>
+                  <li><a href="#">Data Insights</a></li>
+                  <li><a href="#">Research Papers</a></li>
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+              <div class="link-group">
+                <h4>Connect</h4>
+                <ul>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Team</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Join Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 FairMarket India. All rights reserved.</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </div>
+
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
